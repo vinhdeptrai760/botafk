@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
     res.send('Bot Mineflayer đang sống nhăn răng 24/7!');
 });
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 app.listen(port, () => {
     console.log(`[Web Server] Đã bật web ảo trên port ${port}`);
 });
